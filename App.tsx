@@ -1,8 +1,12 @@
 import React from 'react';
-import { Dashboard } from './components/Dashboard';
+import Dashboard from './Dashboard'; // ✅ nuevo nombre correcto
 
-function App() {
-  return <Dashboard />;
-}
+const App = () => {
+  return (
+    <div>
+      <Dashboard />
+    </div>
+  );
+};
 
 export default App;
